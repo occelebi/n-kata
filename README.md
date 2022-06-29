@@ -18,6 +18,12 @@ Please, follow these rules to achieve the goal:
 7. Once your solution is ready, please send us the link of your project.
 
 ---
+## Summary
+I used AWS apprunner to offload as much as possible to managed service. AWS apprunner looked very promising as it provides all features we need like high performance, availability, scalability, and security. They successfully managed to abstract developers away from infrastructure related topic. I liked it.
+
+App is written in golang, terraform for IaC and Taskfile for build tool.
+
+---
 # Solution
 ## Test locally
 You should build in the /app directory and then run executable called sre-kata:
@@ -45,11 +51,6 @@ Text provided: aaaccccqfgh
 ```
 
 I torn down the apprunner due to billing constraints.
-
-## Summary
-I used AWS apprunner to offload as much as possible to managed service. AWS apprunner looked very promising as it provides all features we need like high performance, availability, scalability, and security. They successfully managed to abstract developers away from infrastructure related topic. I liked it.
-
-App is written in golang, terraform for IaC and Taskfile for build tool.
 
 
 ## Terraform
